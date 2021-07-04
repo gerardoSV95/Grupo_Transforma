@@ -2,11 +2,13 @@
 :root{
     --first-color: #494949;
     --first-alpha-color: rgba(73,73,73,0.5);
+    --second-color:#494949;
     --white-color: #E6E6E6; 
     --gray-light-color: #E6E6E6;
     --gray-dark-color: #666666;
     --white-alpha-color: rgba(255,255,255,0.5);
-    --black-alpha-color: rgba(0,0,0,0.5);
+    --white-alpha-color2: rgba(255,255,255,0.4);
+    --black-alpha-color: rgba(0,0,0,0.15);
     --text-color: #222;
     --font: "Raleway", sans-serif;   
     --max-width: 1200px;
@@ -234,7 +236,7 @@ p{
     padding: 0.5rem;
     text-align: center;
     color: var(--white-color);
-    background-color: #A4A4A4;
+    background-color:var(--second-color);
 }
 .header{
     position: fixed;
